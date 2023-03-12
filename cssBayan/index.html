@@ -2,16 +2,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cssBayan</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cssBayan</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto:wght@400;700&display=swap');
+  </style>
 </head>
 
 <body>
-    <h1 class="title">cssBayan</h1>
+  <h1 class="title">cssBayan</h1>
+  <div class="accordion">
+    <label class="accordion__label" for="chk-1">
+      <input class="accordion__input" id="chk-1" type="checkbox" checked />
+      <h3 class="accordion__title">advice dog</h3>
+      <div class="accordion__content">
+        <img class="accordion__img" src="./assets/advice_dog.jpg" alt="advice dog">
+      </div>
+    </label>
+    <label class="accordion__label" for="chk-2">
+      <input class="accordion__input" id="chk-2" type="checkbox" />
+      <h3 class="accordion__title">omich bird</h3>
+      <div class="accordion__content">
+        <img class="accordion__img" src="./assets/omich_bird.jpg" alt="omich bird">
+      </div>
+    </label>
+    <label class="accordion__label" for="chk-3">
+      <input class="accordion__input" id="chk-3" type="checkbox" />
+      <h3 class="accordion__title">philosoraptor</h3>
+      <div class="accordion__content">
+        <img class="accordion__img" src="./assets/philosoraptor.jpg" alt="philosoraptor">
+      </div>
+    </label>
+    <label class="accordion__label" for="chk-4">
+      <input class="accordion__input" id="chk-4" type="checkbox" />
+      <h3 class="accordion__title">socially awkward penguin</h3>
+      <div class="accordion__content">
+        <img class="accordion__img" src="./assets/socially_awkward_penguin.jpg" alt="socially awkward penguin">
+      </div>
+    </label>
+  </div>
 </body>
 
 </html>
